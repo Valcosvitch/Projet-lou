@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="../Ressource/Img/Icone.png">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/jeux_video.css" />
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../css/Taille.css" />
+    <link href="../css/Font.css" rel="stylesheet">
+    <title>Index</title>
+  </head>
+  <body>
+    <!-- L'icon Menu hemburger -->
+    <button
+      id="menu"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample"
+      class="btn"
+      type="button"
+      aria-controls="offcanvasExample"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- Toggler -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-titre overflow-hidden">
+        <div>
+          <a href="#titre"><h1 class="text-center fontMali-regular-400 colorffde5f text-decoration-underline">
+            Jeux-Vidéos
+          </h1></a>
+        </div>
+      </div>
+      <div class="offcanvas-body overflow-hidden">
+        <div class="w-75 p-2">
+          <div>
+            <a href="#section-1"><p>Sage comme une image</p></a>
+          </div>
+          <div>
+            <a href="#section-2"><p>Cookie Cookie Pâtisserie Club</p> </a>
+          </div>
+          <div>
+            <a href="#section-3"><p>Lotus - Chasseurs Dragons</p></a>
+          </div>
+        </div>
+        <div class="w-75 p-2">
+          <a href="#game-design"><h2 class="text-decoration-underline">Game Design</h2></a>
+          <div>
+            <a href="#section-4"><p>In my head</p></a>
+          </div>
+          <div>
+            <a href="#le-chemin"><p>Le chemin de la forêt</p></a>
+          </div>
+          <div>
+            <a href="#mercy-overwatch"><p>Mercy Overwatch</p></a>
+          </div>
+        </div>
+        <div class="w-75 p-2">
+          <a href="#game-jam"><h2 class="text-decoration-underline">Game Jam</h2></a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around position-relative b-1 ">
+        <a href="https://www.artstation.com/hikaria604" class="w-10"><img src="../Ressource/Img/logo/artstation.jpg" class="w-100"></a>
+        <a href="https://hikaria.itch.io/"class="w-10"><img src="../Ressource/Img/logo/itch.png" class="w-100"></a>
+        <a href="https://www.linkedin.com/in/lou-lacroix-hikaria/" class="w-10"><img src="../Ressource/Img/logo/linkdin.png" class="w-100"></a>
+        <a href="https://twitter.com/Hikaria604" class="w-10"><img src="../Ressource/Img/logo/twitter.jpg" class="w-100"></a>
+      </div>
+    </div>
+ <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column vh-30 justify-content-center text-center">
+            <h1 class="colorD3B1F6 display-5 classic_font" id="titre">Game design</h1>
+        </div>
+      </div>
+      <!-- Image and text -->
+      <nav class="navbar navbar-light ">
+        <button class="classic_font border-0 w-15 text-center rounded-pill bgcolor462A63 color4E2C65 ph-40" onclick="self.location.href='Accueil.html'">Accueil</button>
+        <!--<button class="classic_font border-0 w-15 text-center rounded-pill bgcolor462A63 color4E2C65 ph-40" onclick="self.location.href='Game_design.html'">Game design</button>-->
+        <button class="classic_font border-0 w-15 text-center rounded-pill bgcolor462A63 color4E2C65 ph-40" onclick="self.location.href='animation.html'">Animation</button>
+        <button class="classic_font border-0 w-15 text-center rounded-pill bgcolor462A63 color4E2C65 ph-40" onclick="self.location.href='graphisme.html'">Graphisme</button>
+      </nav>
+
+    <div class="bg-transition">
+      <section id="section-1" class="section-1">
+        <div>
+          <div>
+            <h1 class="p-4 text-center fontChewy font-size-3_8 colorAA5DFF">
+              Sage comme une image
+            </h1>
+          </div>
+        </div>
+        <div class="d-block d-lg-flex">
+          <div class="p_1-wrapper">
+            <div>
+              <p
+                class="colorffffff fontMali-regular-400 line-height font-size-1_2"
+              >
+                Sage comme une image est un plateformer 2D en stop-motion, sous
+                le thème du "jeu de combat féministe" ! Incarnez Julie, et
+                émancipez vous à l'aide des armes que vous vous construirez tout
+                le long de ce metroidvania ! Le prototype et le GDD a été
+                réalisé en 5 semaines 4 étudiant·es de la Licence
+                Professionnelle « Métier du Jeux-vidéo » de l’Université Paul
+                Valéry, à Montpellier.
+              </p>
+            </div>
+            <div class="my-4">
+              <h5 class="colorAA5DFF fontMali-bold-700">
+                Mes rôles sur ce projet : Graphiste - Animateur 2D/stop motion -
+                Sound Designer
+              </h5>
+              <div class="my-4 d-flex justify-content-center video_wrapper">
+                <iframe
+                  class="video-opacity"
+                  width="80%"
+                  height="80%"
+                  src="https://www.youtube.com/embed/uqcf1PHjlXs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column justify-content-center">
+            <h6 class="colorffffff font-size-1_5 text-center fontMali-bold-700">
+              Février - Mars 2022
+            </h6>
+            <div class="d-flex justify-content-center resize-img-1-wrapper">
+              <img
+                class="w-50 resize-img-1"
+                src="../Ressource/Img/jeux_video/sage_comme_une_image/vignette_fini.png"
+                alt="vignette_fini"
+              />
+            </div>
+            <div class="m-4 d-flex justify-content-center">
+              <button
+                class="button-1 z-index-2 slideBtn"
+                type="button"
+                onClick="parent.open('https://victorbrisebourg.itch.io/sage-comme-une-image')"
+              >
+                Page du jeu
+              </button>
+            </div>
+            <div class="m-4 d-flex justify-content-center">
+              <button
+                class="button-1 z-index-2 slideBtn"
+                type="button"
+                onClick="parent.open('https://www.canva.com/design/DAE8FfiK7Qk/Vp2K-FBnG7yI_qrvq8f7mg/view?utm_content=DAE8FfiK7Qk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"
+              >
+                Game Design Document
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="img-papier-wrapper">
+          <div class="position-relative img-papier-fini">
+            <img
+              class="w-100"
+              src="../Ressource/Img/jeux_video/sage_comme_une_image/papier_fini.png"
+              alt="papier"
+            />
+          </div>
+          <div class="position-relative img-mc-papier">
+            <img
+              class="img-slide-top"
+              src="../Ressource/Img/jeux_video/sage_comme_une_image/mc_papier_idle_1.png"
+              alt="mc_papier"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="section-2" class="section-2">
+        <div>
+          <div class="m-5 pt-4 resize-cookie-cookie">
+            <h1 class="colorFFFCB4 text-center fontMali-500 font-size-3_2">
+              Cookie Cookie Pâtisserie Club
+            </h1>
+          </div>
+          <div class="d-block d-lg-flex">
+            <div class="cookie-logo-container">
+              <div class="m-2">
+                <h5 class="colorffffff text-center fontMali-bold-700">
+                  Novembre - Décembre <br />
+                  2021
+                </h5>
+              </div>
+              <div class="cookie-logo d-flex justify-content-center">
+                <img
+                  class="img-slide-top"
+                  src="../Ressource/Img/jeux_video/Cookie_Cookie_Pâtisserie_Club/cookie_cookie_logo.png"
+                  alt="cookie"
+                />
+              </div>
+              <div class="m-4 d-flex justify-content-center position-relative">
+                <button
+                  class="button-2 slideBtn"
+                  type="button"
+                  onClick="parent.open('https://hikaria.itch.io/cookiecookiepatisserieclub')"
+                >
+                  Page du jeu
+                </button>
+              </div>
+            </div>
+            <div class="z-index-1">
+              <div class="m-2 cookie-text position-relative">
+                <p class="fontMali-regular-400 colorffffff font-size-1_4">
+                  Cookie Cookie Pâtisserie Club est un visual novel horrifique
+                  abordant les thèmes du consentement et du harcèlement. Le jeu
+                  est né de la volonté de créer un détournement de Doki Doki
+                  Litterature Club. Il a été réalisé en 1 mois et demi par 4
+                  étudiant·es de la Licence Professionnelle « Métier du
+                  Jeux-vidéo » de l’Université Paul Valéry, à Montpellier.
+                </p>
+              </div>
+              <div class="m-2 position-relative z-index-1">
+                <p class="fontMali-bold-700 colorFFFCB4 font-size-1_2">
+                  Mes rôles sur ce projet : Game Designer - UI designer -
+                  Graphiste
+                </p>
+              </div>
+              <div class="w-100">
+                <div
+                  class="my-4 d-flex justify-content-center video_wrapper video_wrapper-2 video-resize"
+                >
+                  <iframe
+                    class="video-opacity"
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/GCKtjCJBoPw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ariane-img-container ">
+            <img
+              src="../Ressource/Img/jeux_video/Cookie_Cookie_Pâtisserie_Club/ariane.png"
+              alt="ariane"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="section-3" class="section-3">
+        <div>
+          <div class="pt-2 position-relative z-index-2">
+            <h1
+              class="text-center m-5 colorFFFCB4 fontMali-regular-400 font-size-3_2"
+            >
+              <span class="font-size-5 z-index-1"> Lotus </span> - Chasseurs
+              Dragons
+            </h1>
+          </div>
+          <div class="d-block d-lg-flex">
+            <div
+              class="d-flex flex-column justify-content-center w-50 div-resizing"
+            >
+              <div class="arche-img-container">
+                <img
+                  class="w-30"
+                  src="../Ressource/Img/jeux_video/lotus/arche_entière_fini.png"
+                  alt="arche_entière"
+                />
+              </div>
+              <div class="z-index-2">
+                <p class="colorffffff fontMali-regular-400 font-size-1_4">
+                  Lotus est un projet créé pour un devoir en classe, avec comme
+                  contrainte d'utiliser une scène culte d'un film. J'ai donc
+                  décidé de prendre une scène d'un de mes films d'animation
+                  préférés : Chasseurs de Dragons.
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-center colorFFFCB4 fontMali-bold-700 font-size-1_2 position-relative"
+                >
+                  Mes rôles sur ce projet : Graphiste - Animateur 2D - Level
+                  Designer - Game Designer - Programmeur
+                </p>
+              </div>
+              <div class="d-flex justify-content-center platform-img-v2">
+                <img
+                  class="w-50"
+                  src="../Ressource/Img/jeux_video/lotus/moyenne_platforme_v2.png"
+                  alt="moyenne_platforme"
+                />
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div>
+                <h5 class="text-center colorffffff fontMali-bold-700">
+                  Octobre 2021 - Projet fait seul
+                </h5>
+              </div>
+              <div class="d-flex justify-content-center logo-jeu-rond">
+                <img
+                  class="w-50 position-relative img-slide-top"
+                  src="../Ressource/Img/jeux_video/lotus/logo_jeu_rond.png"
+                  alt="logo_jeu_rond"
+                />
+              </div>
+              <div class="m-4 d-flex justify-content-center">
+                <button
+                  class="button-3 slideBtn"
+                  type="button"
+                  onClick="parent.open('https://hikaria.itch.io/lotus')"
+                >
+                  Page du jeu
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="position-absolute d-flex flex-column justify-content-center gif-img-wrapper"
+          >
+            <div
+              class="d-flex justify-content-center gif-img-container gif-img-container-1 position-relative"
+            >
+              <img
+                class="img-idle"
+                src="../Ressource/Img/jeux_video/lotus/idle_gwizdo_gif.gif"
+                alt="idle_gwizdo"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gif-img-container position-relative"
+            >
+              <img
+                class="w-15 img-platform-2"
+                src="../Ressource/Img/jeux_video/lotus/moyenne_platforme_v2.png"
+                alt="moyenne_platforme"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="game-design" class="Game-design">
+      <h1 class="text-center font-size-5 fontMali-bold-700 colorc881ff">
+        Game Design
+      </h1>
+    </div>
+
+    <section id="section-4" class="section-4">
+      <!-- TODO: -->
+      <!-- In my head -->
+      <div class="in-my-head">
+        <div class="background-opacity-dark">
+          <div class="">
+            <h1
+              class="text-center m-5 colorE696E1 fontMali-bold-700 font-size-3_6"
+            >
+              In my head
+            </h1>
+            <p class="text-center colorffffff fontMali-bold-700 font-size-1_5">
+              exercice de Level Design Document
+            </p>
+          </div>
+          <div class="d-block d-lg-flex">
+            <div class="w-75 resize-text-inMyHead">
+              <div class="p-4">
+                <p class="colorffffff font-size-1_5 fontMali-regular-400">
+                  Exercice de Level Design Document autour de l'album In my head
+                  de Vivivivivi. Apprentissage et application de flowchart,
+                  croquis, schémas macro et micro de level.
+                </p>
+              </div>
+              <div class="m-4 d-flex justify-content-center">
+                <button
+                  class="button-4 slideBtn"
+                  type="button"
+                  onClick="parent.open('https://www.artstation.com/artwork/mzWl0d')"
+                >
+                  Page du jeu
+                </button>
+              </div>
+            </div>
+            <div class="p-4 carousel-container">
+              <div class="carrousel-wrapper w-100">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide w-100"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner carousel-img-wrapper">
+                    <div class="carousel-item active">
+                      <img
+                        src="../Ressource/Img/jeux_video/in_my_head/1_fini.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../Ressource/Img/jeux_video/in_my_head/2_fini.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../Ressource/Img/jeux_video/in_my_head/5_fini.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../Ressource/Img/jeux_video/in_my_head/14_fini.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../Ressource/Img/jeux_video/in_my_head/16_fini.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TODO: -->
+      <!--  Le chemin de la forêt -->
+      <div id="le-chemin" class="le-chemin">
+        <div class="background-opacity-dark">
+          <div class="">
+            <h1
+              class="text-center m-5 colorFFFCB4 fontMali-bold-700 font-size-3_6"
+            >
+              Le chemin de la forêt
+            </h1>
+            <p class="text-center colorffffff fontMali-bold-700 font-size-1_5">
+              exercice de Rational Game Design - Game Design Document
+            </p>
+          </div>
+          <div class="d-block d-lg-flex">
+            <div class="w-75 resize-text-laForet">
+              <div class="p-4">
+                <p class="colorffffff font-size-1_5 fontMali-regular-400">
+                  Exercice individuel sur le Rational Game Design et le Game
+                  Design Document à travers un petit jeu d’aventure dans une
+                  forêt.
+                </p>
+              </div>
+              <div class="m-4 d-flex justify-content-center">
+                <button
+                  class="button-5 slideBtn"
+                  type="button"
+                  onClick="parent.open('https://www.artstation.com/artwork/YK8Jy6')"
+                >
+                  Voir le document en entier
+                </button>
+              </div>
+            </div>
+            <div class="p-4 carousel-container">
+              <div
+                id="carouselExampleControls-2"
+                class="carousel slide w-100"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/1_fini.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/2_fini.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/3_fini.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/8_fini.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/9_fini.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls-2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls-2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TODO: -->
+      <!-- Mercy Overwatch -->
+      <div id="mercy-overwatch" class="mercy-overwatch">
+        <div class="">
+          <h1
+            class="text-center m-5 color163834 fontMali-bold-700 font-size-3_6"
+          >
+            Mercy Overwatch
+          </h1>
+          <p class="text-center colorffffff fontMali-bold-700 font-size-1_5">
+            exercice de détournement gameplay, narration et design
+          </p>
+        </div>
+        <div class="d-block d-lg-flex">
+          <div class="w-90 resize-text-mercy">
+            <div class="p-4">
+              <p class="colorffffff font-size-1_2 fontMali-regular-400">
+                Analyse et critique en groupe de 3 de Mercy du jeu Overwatch :
+                Sur sa création, sa représentation dans le jeu, ses mécaniques
+                de gameplay et la représentation du personnage dans la
+                communauté des joueurs du jeu.
+              </p>
+            </div>
+            <div class="m-4 d-flex justify-content-center">
+              <button
+                class="button-6 slideBtn"
+                type="button"
+                onClick="parent.open('https://docs.google.com/presentation/d/1BOCIaAAGua5U9k9LGTxsqCQosH1DC39IisEsM9zeh1I/edit#slide=id.p')"
+              >
+                Voir le document en entier
+              </button>
+            </div>
+          </div>
+          <div class="p-5">
+            <img
+              class="w-100"
+              src="../Ressource/Img/jeux_video/Mercy_Détournement_fini.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="game-jam" class="Game-Jam">
+      <h1 class="text-center font-size-5 fontMali-bold-700 colorc881ff">
+        Game Jam
+      </h1>
+    </div>
+
+    <!-- TODO: -->
+    <!-- Game Jam -->
+    <section class="section-5">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="w-75">
+          <div
+            id="carouselExampleControls-3"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../Ressource/Img/jeux_video/game_jam/1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Ressource/Img/jeux_video/game_jam/2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Ressource/Img/jeux_video/game_jam/3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Ressource/Img/jeux_video/game_jam/4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls-3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls-3"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="d-flex mt-4 pt-4">
+          <div class="m-3">
+            <p
+              class="text-center colorffffff fontMali-regular-400 font-size-1_5"
+            >
+              Retrouver toutes mes participations à des games jams !
+            </p>
+          </div>
+          <div class="">
+            <a href="https://hikaria.itch.io/">
+              <img
+                class="w-100"
+                src="../Ressource/Img/jeux_video/game_jam/oui-logo.webp"
+                alt="oui"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bgcolorFFFEE1 vh-15 d-flex justify-content-around ">
+      <p class="d-flex align-items-center" id="texte_fin">Portfolio de Hikaria - Lou Lacroix</p>
+      <img src="../Ressource/Img/Icone.png" class="ph-100">
+      <div class="d-flex align-items-center d-flex justify-content-around w-15" id="reseau"> 
+        <a href="https://twitter.com/Hikaria604" class="w-20"><img src="../Ressource/Img/logo/twitter.jpg" class="w-100"></a>
+        <a href="https://www.linkedin.com/in/lou-lacroix-hikaria/" class="w-20"><img src="../Ressource/Img/logo/linkdin.png" class="w-100"></a>
+        <a href="https://www.artstation.com/hikaria604" class="w-20"><img src="../Ressource/Img/logo/artstation.jpg" class="w-100"></a>
+        <a href="https://hikaria.itch.io/" class="w-20"><img src="../Ressource/Img/logo/itch.png" class="w-100"></a>
+      </div>
+
+  </div>
+
+
+    <script src="../javascript/all.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
