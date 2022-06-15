@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.body-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url("../Ressource/Img/profondeur.png");
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.modalAccueilImage {
+  width: 65%;
+  animation-name: zoom;
+  animation-duration: 0.7s;
+}
+.color689ADE{
+background:#689ADE;
+}
+.color352657{
+    background-color: #352657;
+}
+.colorE0DCA5{
+    color: #E0DCA5;
+    font-size: x-large;
+}
+.bgF8AF08{
+    background-color: #F8AF08;
+}
+.bgcolorFFFEE1{
+    background-color: #FFFEE1;
+}
+.colorDAB6FC{
+    color:#DAB6FC;
+}
+.colorFAFBC1{
+    background:#FAFBC1;
+}
+.bgcolorDFC183{
+    background: #DFC183;
+}
+.colorDFC183{
+    color: #DFC183;
+}
+.text-justify{
+    text-align: justify;
+}
+.i1{
+    background-image: url(../Ressource/Img/logo\ jeu.png);
+    background-size: cover;
+
+}
+.i2{
+    background-image: url(../Ressource/Img/logo\ animation.png);
+    background-size: cover;
+}
+.i3{
+    background-image: url(../Ressource/Img/logo\ graph.png);
+    background-size: cover;
+}
+.br-2{
+    border-radius: 2em;
+}
+.br-5{
+    border-radius:5%
+}
+.w-13em{
+    width: 13em;
+}
+.Color239A97{
+    color: #239A97;
+}

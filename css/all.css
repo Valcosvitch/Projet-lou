@@ -1,0 +1,344 @@
+/* Les fonts */
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("//db.onlinewebfonts.com/c/f6a8b2423790ec81bbbd18662bbc7f03?family=BelindaW00-Regular");
+.fontMali-regular-400 {
+  font-family: "Mali", cursive;
+  font-weight: 400;
+}
+.fontMali-regular-400-ita {
+  font-family: "Mali", cursive;
+  font-style: italic;
+  font-weight: 400;
+}
+.fontMali-500 {
+  font-family: "Mali", cursive;
+  font-weight: 500;
+}
+.fontMali-bold-700 {
+  font-family: "Mali", cursive;
+  font-weight: 700;
+}
+.fontChewy {
+  font-family: "Chewy", cursive;
+  font-weight: 400;
+}
+.fontRoboto-regular-400 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.fontRoboto-500 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.fontRoboto-700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.fontRoboto-900 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.fontBelinda {
+  font-family: "BelindaW00-Regular";
+  font-weight: 700;
+}
+body {
+  background-image: url("../Ressource/Img/profondeur.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/* Les couleurs */
+.color689ADE {
+  background: #689ade;
+}
+.colorBCD2F7 {
+  color: #bcd2f7;
+}
+.color352657 {
+  color: #352657;
+}
+.color251746 {
+  color: #251746;
+}
+.colorE0DCA5 {
+  color: #e0dca5;
+  font-size: x-large;
+}
+.colorffde5f {
+  color: #ffde5f;
+}
+.colorDAB6FC {
+  color: #dab6fc;
+}
+.colorc881ff {
+  color: #c881ff;
+}
+.colorffffff {
+  color: #ffffff;
+}
+.colorFFFCB4 {
+  color: #fffdb4;
+}
+.colorF9FDB4 {
+  color: #f9fdb4;
+}
+.color8B0000 {
+  color: #8b0000;
+}
+.colorC325BA {
+  color: #c325ba;
+}
+.colorE696E1 {
+  color: #e696e1;
+}
+.colorA488BD {
+  color: #a488bd;
+}
+.colorAA5DFF {
+  color: #aa5dff;
+}
+.colorCFB6FC {
+  color: #cfb6fc;
+}
+.color163834 {
+  color: #163834;
+}
+.color30736B {
+  color: #30736b;
+}
+.color23242F {
+  color: #23242f;
+}
+.color5A5656 {
+  color: #5a5656;
+}
+.colorD3B1F6 {
+  color: #d3b1f6;
+}
+.color689ADE {
+  background: #689ade;
+}
+.bgcolorD3B1F6 {
+  background-color: #d3b1f6;
+}
+.bgcolor352657 {
+  background-color: #352657;
+}
+.bgcolor462A63 {
+  background-color: #462a63;
+}
+.bgcolorE6E75C {
+  background-color: #e6e75c;
+}
+.bgcolor726F6F {
+  background-color: #726f6f;
+}
+.colorE6E75C {
+  color: #e6e75c;
+}
+.color726F6F {
+  color: #726f6f;
+}
+.color4E2C65 {
+  color: #8f799e;
+}
+.bgcolorbf1903 {
+  background: #bf1903;
+}
+.bgcolor162A32 {
+  background-color: #162a32;
+}
+/* Text */
+.text-justify {
+  text-align: justify;
+}
+.line-height {
+  line-height: 1.8em;
+}
+.font-size-1_2 {
+  font-size: 1.2rem;
+}
+.font-size-1_3 {
+  font-size: 1.3rem;
+}
+.font-size-1_4 {
+  font-size: 1.4rem;
+}
+.font-size-1_5 {
+  font-size: 1.5rem;
+}
+.font-size-1_6 {
+  font-size: 1.6rem;
+}
+.font-size-1_7 {
+  font-size: 1.7rem;
+}
+.font-size-1_8 {
+  font-size: 1.8rem;
+}
+.font-size-2 {
+  font-size: 2rem;
+}
+.font-size-2_2 {
+  font-size: 2.2rem;
+}
+.font-size-2_4 {
+  font-size: 2.4rem;
+}
+.font-size-2_6 {
+  font-size: 2.6rem;
+}
+.font-size-2_8 {
+  font-size: 2.8rem;
+}
+.font-size-3 {
+  font-size: 3rem;
+}
+.font-size-3_2 {
+  font-size: 3.2rem;
+}
+.font-size-3_4 {
+  font-size: 3.4rem;
+}
+.font-size-3_6 {
+  font-size: 3.6rem;
+}
+
+.font-size-3_8 {
+  font-size: 3.8rem;
+}
+.font-size-4_2 {
+  font-size: 4.2rem;
+}
+.font-size-4_4 {
+  font-size: 4.4rem;
+}
+.font-size-4_6 {
+  font-size: 4.6rem;
+}
+.font-size-4_8 {
+  font-size: 4.8rem;
+}
+.font-size-5 {
+  font-size: 5rem;
+}
+
+/* positionnement */
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+.z-index-_1 {
+  z-index: -1;
+}
+.z-index-_2 {
+  z-index: -2;
+}
+
+/* Les trucs qui font chier */
+.linkedin img {
+  width: 54px;
+}
+/* Le modal avec les images */
+/* le container */
+#imgModal {
+  background-color: rgba(0, 0, 0, 0.775);
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+/* image */
+.modalContent {
+  min-height: 70%;
+  animation-name: zoom;
+  animation-duration: 0.7s;
+}
+.icon-close {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  z-index: 1003;
+}
+.fa-xmark {
+  font-size: 2.8rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.fa-xmark:hover {
+  transform: scale(1.3);
+  color: #9d9d9d;
+  transition: all 0.2s;
+}
+.imgClick {
+  cursor: pointer;
+}
+/* les animations */
+.slideBtn {
+  position: relative;
+  left: 80px;
+  opacity: 0;
+}
+.video-opacity {
+  opacity: 0;
+}
+.img-slide-top {
+  opacity: 0;
+  top: 150px;
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Les medias */
+@media screen and (max-width: 1200px) {
+  body {
+    background-image: url("../Ressource/Img/profondeur.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  .modalContent {
+  min-height: 50%;
+  max-height: 70%;
+}
+}
+@media screen and (max-width: 900px) {
+ .modalContent {
+  min-height: 40%;
+  max-height: 60%;
+}
+}
+@media screen and (max-width: 500px) {
+ .modalContent {
+  min-height: 30%;
+  max-height: 40%;
+}
+}

@@ -1,0 +1,551 @@
+/* menu hamburger */
+#menu {
+  position: fixed;
+  z-index: 100000;
+  left: 2%;
+  top: 2%;
+  background-color: #ffde5f;
+  border-color: none;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  content: "\f0c9";
+  color: rgb(0, 0, 0);
+}
+.bgcolorFFFEE1{
+  background-color:#FFFEE1;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+
+/* offcanvas */
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: #15204e;
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.4s ease-in-out;
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem 1rem;
+}
+
+.btn-close {
+  background: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fc0'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+    center/1em auto no-repeat;
+}
+
+.offcanvas-titre {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 0.3;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.6;
+  padding: 1rem 1rem 10rem 1rem;
+  overflow-y: auto;
+}
+.offcanvas-body div {
+  padding-block: 0.4rem;
+}
+
+.offcanvas-body a {
+  text-align: center;
+  color: #ffde5f;
+  text-decoration: none;
+  font-family: "Mali", cursive;
+}
+.offcanvas-body a:hover {
+  color: #ffeea9;
+}
+
+/* header */
+/* header {
+  height: 100vh;
+} */
+.navbar {
+  height: 20vh;
+  margin-inline: 10em;
+}
+
+/* section */
+section {
+  margin-bottom: 10%;
+}
+
+.bg-transition {
+  background-color: #251746;
+}
+
+.section-1 {
+  /* height: 100vh; */
+  background-image: url("../Ressource/Img/jeux_video/sage_comme_une_image/Copie_de_Présentation_Sage_comme_une_image.jpg");
+  padding-inline: 15%;
+}
+.video_wrapper {
+  aspect-ratio: 16 / 9;
+}
+.p_1-wrapper {
+  flex: 1;
+}
+.button-1 {
+  background-color: #aa5dff;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.button-1:hover {
+  background-color: #689ade;
+}
+.img-papier-fini img {
+  position: relative;
+}
+.img-mc-papier img {
+  width: 20%;
+  position: absolute;
+  left: 60%;
+  transform: translateY(-100%);
+}
+.section-2 {
+  /* height: 100vh; */
+  background-image: url("../Ressource/Img/jeux_video/Cookie_Cookie_Pâtisserie_Club/game_menu.png");
+  padding-inline: 15%;
+}
+.button-2 {
+  background-color: #b7d1ff;
+  border: none;
+  border-radius: 40px;
+  color: #256dd1;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.button-2:hover {
+  background-color: #689ade;
+  color: #ffffff;
+}
+.video_wrapper-2 {
+  width: 80%;
+  margin: auto;
+}
+.ariane-img-container {
+  position: relative;
+  transform: translateX(100px);
+}
+.ariane-img-container img {
+  position: absolute;
+  width: 160px;
+  right: 0;
+  top: -311px;
+}
+.cookie-logo-container {
+  width: 100%;
+}
+.cookie-logo {
+  position: relative;
+  height: 50%;
+}
+.cookie-logo img {
+  width: 650px;
+  left: -8rem;
+  z-index: 0;
+  position: absolute;
+}
+
+.section-3 {
+  /* height: 100vh; */
+  background-image: url("../Ressource/Img/jeux_video/lotus/fond_lotus2.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  padding: 5% 15% 5% 15%;
+}
+.button-3 {
+  background-color: #8b0000;
+  border: none;
+  border-radius: 40px;
+  color: #cd4343;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+.button-3:hover {
+  background-color: #689ade;
+  color: #ffffff;
+}
+.arche-img-container {
+  position: relative;
+  width: 0%;
+}
+.arche-img-container img {
+  position: absolute;
+  transform: translateY(-80%);
+  width: 150px;
+}
+.gif-img-wrapper {
+  transform: translateY(-60%);
+  left: 122px;
+}
+.gif-img-container {
+  transform: translateY(-50px);
+}
+.img-idle {
+  transform: translateY(13px);
+  width: 10%;
+}
+
+.Game-design {
+  padding: 5%;
+  background-color: #320f51;
+}
+.section-4 {
+  /* height: 100vh; */
+  background-color: #251746;
+  padding: 5% 15% 5% 15%;
+}
+/* in-my-head */
+.in-my-head {
+  background-image: url("../Ressource/Img/jeux_video/in_my_head/1_bg_fini.png");
+}
+.button-4 {
+  background-color: #c325ba;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+.background-opacity-dark {
+  background-color: rgba(0, 0, 0, 0.654);
+}
+.button-4:hover {
+  background-color: #689ade;
+  color: #ffffff;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* le-chemin */
+.le-chemin {
+  background-image: url("../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/1_bg_fini.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left center;
+}
+
+.button-5 {
+  background-color: #fffdb4;
+  border: none;
+  border-radius: 40px;
+  color: rgb(187, 170, 99);
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+.button-5:hover {
+  background-color: #689ade;
+  color: #ffffff;
+}
+
+.mercy-overwatch {
+  background: rgb(48, 115, 107);
+  background: linear-gradient(
+    180deg,
+    rgba(48, 115, 107, 1) 0%,
+    rgba(7, 52, 46, 1) 100%
+  );
+}
+.button-6 {
+  background-color: #30736b;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+.button-6:hover {
+  background-color: #689ade;
+  color: #ffffff;
+}
+
+.Game-Jam {
+  padding: 5%;
+  background-color: #320f51;
+}
+
+.section-5 {
+  /* height: 100vh; */
+  background-color: #251746;
+  padding: 5% 15% 5% 15%;
+  margin-bottom: 0 !important;
+}
+.bgcolor462A63:hover{
+  background-color: #689ADE;
+  color: #fff;
+}
+.font-size-1_2{
+  font-size: 1.4rem !important;
+}
+@media screen and (max-width: 1500px) {
+  .img-mc-papier img {
+    left: 52%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-1 {
+    padding-inline: 5%;
+  }
+  .section-2 {
+    padding-inline: 5%;
+  }
+  .section-3 {
+    padding-inline: 5%;
+  }
+  .section-4 {
+    padding-inline: 5%;
+  }
+  .section-5 {
+    /* height: 100vh; */
+    background-color: #251746;
+    padding: 3%;
+  }
+  .ariane-img-container {
+    transform: translateX(76px);
+  }
+  .img-idle {
+  transform: translateY(8px);
+}
+}
+@media screen and (max-width: 992px) {
+  .resize-img-1-wrapper {
+  display: none !important;
+  }
+  .img-mc-papier img {
+    left: 70%;
+    width: 30%;
+  }
+  .cookie-logo-container {
+    transform: translateX(0%);
+  }
+  .cookie-logo {
+    display: none !important;
+  }
+  .ariane-img-container {
+    transform: translateX(50px);
+  }
+  .ariane-img-container img {
+    width: 140px;
+    top: -297px;
+  }
+  .video-resize {
+    padding-bottom: 10%;
+  }
+  .div-resizing {
+    width: 100% !important;
+  }
+  .section-3 {
+    /* height: 100vh; */
+    background-image: url("../Ressource/Img/jeux_video/lotus/écran_titre-fond_responsive_fini.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .arche-img-container img {
+    transform: translateY(-0%);
+  }
+  .platform-img-v2 {
+    position: relative;
+  }
+  .platform-img-v2 img {
+    position: absolute;
+    width: 30% !important;
+    left: 2%;
+    transform: translateY(180%);
+  }
+  .logo-jeu-rond img {
+    width: 25% !important;
+  }
+  .gif-img-wrapper {
+    transform: translateY(-80%);
+    left: 65%;
+  }
+  .img-idle {
+    transform: translateY(10px);
+    width: 134px !important;
+  }
+  .img-platform-2 {
+    width: 240px !important;
+  }
+  .resize-text-inMyHead {
+    width: 100% !important;
+    text-align: center;
+  }
+  .le-chemin {
+    background-image: url("../Ressource/Img/jeux_video/Le_chemin_de_la_forêt/1_bg_fini.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  }
+  .resize-text-laForet {
+    width: 100% !important;
+    text-align: center;
+  }
+  .carousel-container {
+    padding: 13% !important;
+  }
+  .resize-text-mercy {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar{
+        flex-direction: column;
+        flex-wrap: nowrap !important;
+        height: 70vh !important;
+        margin-inline: 0;
+    }
+    .navbar>button{
+        width: 80%;
+        margin-bottom: 2em;
+        height: 3em;
+    }
+    .display-5 {
+        font-size: 4em !important;
+    }
+}
+@media screen and (max-width: 768px) {
+  .ariane-img-container  {
+    transform: translateX(40px);
+  }
+  .ariane-img-container img {
+    width: 100px;
+    top: -219px;
+  }
+  .section-4 {
+    padding: 5% 0% 0% 0%;
+  }
+  .gif-img-wrapper {
+    transform: translateY(-70%);
+    left: 65%;
+  }
+  .img-idle {
+    transform: translateY(10px);
+    width: 94px !important;
+  }
+  .img-platform-2 {
+    width: 178px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img-mc-papier img {
+    left: 65%;
+    width: 50%;
+  }
+  header {
+    height: 50vh;
+  }
+  h1 {
+    font-size: 3.4rem !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img-mc-papier img {
+    left: 55%;
+    width: 65%;
+  }
+  h1 {
+    font-size: 2.3rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+  .resize-cookie-cookie {
+    margin: 0 !important;
+  }
+  .ariane-img-container {
+    display: none !important;
+  }
+  .video_wrapper {
+    aspect-ratio: 16 / 9;
+  }
+  button {
+    font-size: 0.9rem !important;
+  }
+  .gif-img-wrapper {
+    left: 70%;
+  }
+  .img-idle {
+    width: 65px !important;
+  }
+  .img-platform-2 {
+    width: 116px !important;
+  }
+}

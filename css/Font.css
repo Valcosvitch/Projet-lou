@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Ubuntu&display=swap');
+
+.classic_font{
+    font-family: 'Mali', cursive;
+}
+
+
+
+.display-5{
+    font-size: 5em;
+}
+.display-140{
+    font-size: 140%;
+}
+.display-170{
+    font-size: 170%;
+}
+.display-240{
+    font-size: 240%;
+}
+.display-200{
+    font-size: 200%;
+}

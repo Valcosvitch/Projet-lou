@@ -1,0 +1,174 @@
+body{
+    background-image: url(../Ressource/Img/profondeur.png);
+}
+/* menu hamburger */
+#menu {
+  position: fixed;
+  z-index: 100000;
+  left: 2%;
+  top: 2%;
+  background-color: #ffde5f;
+  border-color: none;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  content: "\f0c9";
+  color: rgb(0, 0, 0);
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+
+/* offcanvas */
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: #15204e;
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.4s ease-in-out;
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.btn-close {
+  background: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fc0'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+    center/1em auto no-repeat;
+}
+
+.offcanvas-titre {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 0.3;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.6;
+  /*padding: 1rem 1rem 10rem 1rem;*/
+  overflow-y: auto;
+}
+.offcanvas-body div {
+  padding-block: 0.4rem;
+}
+
+.offcanvas-body a {
+  text-align: center;
+  color: #ffde5f;
+  text-decoration: none;
+  font-family: "Mali", cursive;
+}
+.offcanvas-body a:hover {
+  color: #ffeea9;
+}
+
+
+.colorD3B1F6{
+    color: #D3B1F6;
+}
+.color689ADE{
+    background:#689ADE;
+    }
+.bgcolorD3B1F6{
+    background-color: #D3B1F6;
+}
+.bgcolor352657{
+    background-color: #352657;
+}
+.bgcolor462A63{
+    background-color: #462A63;
+}
+.bgcolorE6E75C{
+    background-color: #E6E75C;
+}
+.bgcolor726F6F{
+    background-color: #726F6F;
+}
+.colorE6E75C{
+    color:#E6E75C;
+}
+.color726F6F{
+    color: #726F6F;
+}
+.color4E2C65{
+    color:#8f799e;
+}
+.bgcolorbf1903{
+    background: #bf1903;
+}
+.bgcolor162A32{
+    background-color: #162A32;
+}
+.large{
+    font-size: large;
+}
+.fond_sage{
+    background-image: url(../Ressource/Img/fond_sage.jpg);
+}
+.fond_lotus{
+    background-image: url(../Ressource/Img/fond_lotus.png);
+    background-position: center;
+    background-size: cover;
+}
+.fond_yatim{
+    background-image: url(../Ressource/Img/fond_yatim.png) ;
+}
+.fond_chrominion{
+    background-image: url(../Ressource/Img/fond_chrominion.png);
+    background-position: center;
+    background-size: cover;
+}
+.fond_dont_look{
+    background-image: url(../Ressource/Img/dont_look_me/fond.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.fond_corp_desincarne{
+    background-image: url(../Ressource/Img/corp_desaccordes/fond.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.fond_chaperon{
+    background-image: url(../Ressource/Img/chaperon_rouge/fond.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.me-fait-chier {
+        gap: 0.5rem;
+        margin: 0.25rem;
+    }
+.bgcolor462A63:hover,.bgcolorD3B1F6:hover,.bgcolorbf1903:hover,.bgcolor162A32:hover,.bgcolor726F6F:hover,.bgcolorE6E75C:hover{
+  background-color: #689ADE;
+  color: #fff;
+}
+.bgcolorFFFEE1{
+  background-color:#FFFEE1;
+}

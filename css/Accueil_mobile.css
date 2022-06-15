@@ -1,0 +1,93 @@
+@media screen and (max-width: 900px){
+#accueil{
+    flex-direction: column;
+    height: 100vh;
+}
+#accueil>.vh-60{
+    height: 20vh;
+}
+#qui_suis_je{
+    display: none;
+}
+.font-size-3-em{
+    font-size: 3em;
+}
+#texte-accueil>h5{
+    display: none;
+}
+.m-r-l10{
+    margin-right: 0;
+    margin-left: 0;
+}
+#texte_propos>p{
+    font-size: large !important;
+}
+.navbar{
+    flex-direction: column;
+    flex-wrap: nowrap !important;
+    height: 50vh;
+}
+.navbar>button{
+    width: 80%;
+    margin-bottom: 2em;
+}
+#a_propos{
+    flex-direction: column;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+    height: 40vh;
+}
+#photo>.m-r-2{
+    margin-right: 0;
+}
+#texte_propos{
+    margin-right: 3em;
+    margin-left: 3em;
+}
+#bouton_cv{
+    width: 70%;
+    height: 3em;
+}
+#image_moodboard{
+    flex-direction: column;
+    align-items: center;
+}
+#image_moodboard>a{
+    width: 80%;
+    margin-bottom: 1em;
+}
+#bulle_realisation{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-left: 0;
+    width: 100%;
+}
+#bulle_realisation>a{
+    width: 13em;
+}
+#text_realisation{
+    display: none !important;
+}
+form{
+    width: 90% !important;
+}
+#contact>img{
+    display: none;
+}
+#input_contact{
+    width:80% ;
+}
+#texte_fin{
+    width: 25%;
+}
+#reseau{
+    width: 40%;
+}
+.modalAccueilImage {
+  width: 80%;
+}
+}
